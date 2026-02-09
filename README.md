@@ -32,9 +32,9 @@ Course Link: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2
 
 | Assessment | Grade |
 |------------|-------|
-| Quiz 1 | 79/120* |
-| Quiz 2 | 102/120 |
-| Final Exam | 160/180 |
+| [Quiz 1](./Quiz%201) | 79/120* |
+| [Quiz 2](./Quiz%202) | 102/120 |
+| [Final Exam](./Final%20Exam) | 160/180 |
 
 \*Quiz 1 scores were low across the board in the original Fall 2011 MIT class this course was recorded from. The course staff acknowledged this [here](https://youtu.be/a_otxyu0mSQ?si=FOkm1kT4oVYHMaTe&t=34): *"The results are lower than what we thought... the mistake was on our part."*
 
