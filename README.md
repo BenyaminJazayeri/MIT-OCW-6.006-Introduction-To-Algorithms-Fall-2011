@@ -28,6 +28,14 @@ Course Link: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2
 | Dynamic Programming | Memoization, subproblems, text justification, edit distance, knapsack |
 | Advanced Topics | P, NP, NP-completeness, reductions |
 
+## Coursework
+
+| Type | Count |
+|------|-------|
+| Problem Sets | 7 |
+| Quizzes | 2 |
+| Final Exam | 1 |
+
 ## Transcript
 
 | Assessment | Grade |
