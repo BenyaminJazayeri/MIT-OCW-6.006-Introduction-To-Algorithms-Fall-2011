@@ -4,7 +4,7 @@
 
 ![logo](./logo.jpg)
 
-My coursework for MIT OCW 6.006 Introduction To Algorithms Fall 2011 class. This covers the exact same coursework required of MIT students present at class for full marks.
+My coursework for MIT OCW 6.006 Introduction To Algorithms Fall 2011 class. This covers the exact same coursework required of MIT students present in class for full marks.
 
 All solutions are my own.
 
@@ -45,6 +45,26 @@ Course Homepage: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fa
 | [Final Exam](./Final%20Exam) | 160/180 |
 
 \*Quiz 1 scores were low across the board in the original Fall 2011 MIT class this course was recorded from. The course staff acknowledged this [here](https://youtu.be/a_otxyu0mSQ?si=FOkm1kT4oVYHMaTe&t=34): *"The results are lower than what we thought... the mistake was on our part."*
+
+## Projects
+
+### [Arbitrary-Precision Arithmetic Library for RSA](./Problem%20Set%205)
+A complete big number arithmetic library implementing Karatsuba multiplication (O(n^log₂3)), Newton-Raphson division with inverse caching, and modular exponentiation (square-and-multiply). Uses hybrid dispatch, switching between asymptotically fast and brute-force algorithms based on input size. Applied to RSA public-key encryption and decryption.
+
+### [BST / AVL / Range Tree + Sweep Line Circuit Layout](./Problem%20Set%203)
+A full balanced tree hierarchy built from scratch: binary search tree with min-augmentation, AVL tree with rotations, and a size-augmented range tree supporting O(log n) rank and range queries. Used as the backing data structure for a sweep line algorithm that detects wire crossings in digital circuit layouts, replacing an O(n²) brute-force approach with O(n log n).
+
+### [Dijkstra's Algorithm on the US Highway Network](./Problem%20Set%206)
+Dijkstra's shortest-path algorithm applied to the National Highway Planning Network with great-circle distance and KML output for Google Earth visualization.
+
+### [Rubik's Cube Bidirectional BFS Solver](./Problem%20Set%206)
+A bidirectional BFS solver for the 2x2x2 Rubik's cube that explores from both start and goal states simultaneously, using permutation group inverses to reconstruct the solution path.
+
+### [Content-Aware Image Resizing with Dynamic Programming (Seam Carving)](./Problem%20Set%207)
+A dynamic programming implementation of the [Avidan & Shamir](https://www.youtube.com/watch?v=vIFCV2spKtg) seam carving algorithm. Computes the minimum-energy vertical seam using a bottom-up DP table with backpointers.
+
+### [Min-Heap Priority Queue for Circuit Simulation](./Problem%20Set%202)
+Profiled an event-driven circuit simulator, identified a bottleneck in the O(n) priority queue, and replaced it with a min-heap implementation built from scratch.
 
 ## My Other MIT Coursework
 
